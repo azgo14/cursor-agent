@@ -16,11 +16,13 @@ From this monorepo (path dependency):
 uv add "cursor-agent @ file:./packages/cursor-agent"
 ```
 
-Or after publishing to PyPI:
+Or from PyPI:
 
 ```bash
-pip install cursor-agent
+pip install cursor-acp
 ```
+
+The import name is still `cursor_agent` (package directory unchanged).
 
 ## Quick start
 
