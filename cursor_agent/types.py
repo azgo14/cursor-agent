@@ -91,5 +91,5 @@ class AgentConfig:
     api_key: Optional[str] = None
     auth_token: Optional[str] = None
     client_name: str = "cursor-agent"
-    client_version: str = "0.1.0"
+    client_version: str = "0.1.1"
     prefer_composer_fast: bool = True

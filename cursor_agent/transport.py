@@ -29,7 +29,7 @@ class AcpTransport:
         self,
         *,
         client_name: str = "cursor-agent",
-        client_version: str = "0.1.0",
+        client_version: str = "0.1.1",
         api_key: str | None = None,
         auth_token: str | None = None,
         hooks: CursorAgentHooks | None = None,

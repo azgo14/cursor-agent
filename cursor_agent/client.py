@@ -99,7 +99,7 @@ class CursorAgent:
         api_key: str | None = None,
         auth_token: str | None = None,
         client_name: str = "cursor-agent",
-        client_version: str = "0.1.0",
+        client_version: str = "0.1.1",
         prefer_composer_fast: bool = True,
         hooks: CursorAgentHooks | None = None,
     ) -> None:

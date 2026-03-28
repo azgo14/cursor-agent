@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cursor-acp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python client for the Cursor CLI Agent Client Protocol (ACP) / agent acp"
 readme = "README.md"
 requires-python = ">=3.11"
