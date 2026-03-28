@@ -6,7 +6,11 @@ Standalone Python client for **Cursor CLI** in **ACP** mode (`agent acp`): JSON-
 
 - Python 3.11+
 - [Cursor CLI](https://cursor.com/docs/cli/acp) with `agent` on `PATH` (often `~/.local/bin`)
-- `CURSOR_API_KEY` or `CURSOR_AUTH_TOKEN` in the environment (or pass explicitly)
+- `CURSOR_API_KEY` or `CURSOR_AUTH_TOKEN` in the environment (or pass explicitly). From a checkout of this repo, you can pass the key inline (replace `x` with your real key):
+
+```bash
+CURSOR_API_KEY=x python examples/quickstart.py
+```
 
 ## Install
 
@@ -25,6 +29,21 @@ pip install cursor-acp
 The import name is still `cursor_agent` (package directory unchanged).
 
 ## Quick start
+
+Run the included example from the repo (after an editable install):
+
+```bash
+pip install -e .
+CURSOR_API_KEY=x python examples/quickstart.py
+```
+
+Optional prompt and working directory:
+
+```bash
+CURSOR_API_KEY=x python examples/quickstart.py --cwd /path/to/project "What does this codebase do?"
+```
+
+Equivalent minimal script:
 
 ```python
 import asyncio
